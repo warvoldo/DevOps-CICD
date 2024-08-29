@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
   deploy-dev:
     needs: build
-    uses: DemoDevOps1984/pipeline_templates/.github/workflows/demo-deploy.yml@v4
+    uses: DemoDevOps1984/pipeline_templates/.github/workflows/demo-deploy.yml@main
     with:
       variavel-demo: "Demo Dev"
    
