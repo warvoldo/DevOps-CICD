@@ -54,4 +54,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.  
-          
+
+
+  deploy-hml:
+    needs: build
+    uses: DemoDevOps1984/pipeline_templates/.github/workflows/demo-deploy.yml@v10
+    with:
+      variavel-demo: "Demo Dev"
+   
+     
+
+
